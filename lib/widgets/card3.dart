@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fooderlich/fooderlich_theme.dart';
+import '../fooderlich_theme.dart';
 
 class Card3 extends StatelessWidget {
   const Card3({Key? key}) : super(key: key);
@@ -81,6 +81,16 @@ class Card3 extends StatelessWidget {
                   ),
                   Chip(
                     label: Text('Carrots',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                  ),
+                  Chip(
+                    label: Text('Milk',
+                        style: FooderlichTheme.darkTextTheme.bodyText1),
+                    backgroundColor: Colors.black.withOpacity(0.7),
+                  ),
+                  Chip(
+                    label: Text('Beef',
                         style: FooderlichTheme.darkTextTheme.bodyText1),
                     backgroundColor: Colors.black.withOpacity(0.7),
                   ),
